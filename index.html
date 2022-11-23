@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hudson Valley Project Manager - Homepage</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+    </head>
+    <style>
+        body {
+            background-color:#E2E2E2;
+            color:#000;
+            font-family: n, Arial;
+            margin:0;
+            box-sizing: border-box;
+            overflow-x:hidden;
+            padding-top:80px;
+        }
+        body * {
+            box-sizing: border-box;
+        }
+        @font-face {
+			font-family: 'c';
+			font-display:swap;
+			src: url('c.woff2') format('embedded-opentype'), /* Internet Explorer */
+			url('c.woff2') format('woff2'), /* Super Modern Browsers */
+			url('c.woff2') format('woff'), /* Pretty Modern Browsers */
+			url('c.woff2') format('truetype'), /* Safari, Android, iOS */
+			url('c.woff2') format('svg'); /* Legacy iOS */
+		}
+        @font-face {
+			font-family: 'd';
+			font-display:swap;
+			src: url('d.woff2') format('embedded-opentype'), /* Internet Explorer */
+			url('d.woff2') format('woff2'), /* Super Modern Browsers */
+			url('d.woff2') format('woff'), /* Pretty Modern Browsers */
+			url('d.woff2') format('truetype'), /* Safari, Android, iOS */
+			url('d.woff2') format('svg'); /* Legacy iOS */
+		}
+        .first,.second,.third,.fourth {
+            overflow: hidden;
+        }
+        img {max-width:100%}
+        .info a * {
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .left, .right {
+            width: 50%;
+            float: left;
+        }
+        .left {
+            padding:25px;
+            padding-left:15%;
+        }
+        h1, h2 {font-family: c; }
+        h1 {font-size: min(89px, 5vw);margin-top:0;}
+        .right img {float: right;}
+        .info > p {
+            font-size: 48px;
+            font-family: d;
+            color: #646464;
+            margin:12px;
+        }
+        .info a {
+            width: 100%;
+            float: left;
+            display: block;
+        }
+        .info a p {
+            font-size:40px;
+            font-family: d;
+            color:#646464;
+            margin:10px;
+        }
+        .first a img + p {
+            padding-left: 24px;
+        }
+        h2 {
+            font-size:36px;
+        }
+        .second {
+            background: url('img/first.svg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 10%;
+            color: white;
+        }
+        .second p {
+            font-family: d;
+            font-size:24px;
+        }
+        .third {
+            padding: 0 10%;
+            margin-top: 80px;
+        }
+        .project {overflow: hidden; margin-bottom:48px;}
+        .thumb img {
+            width: 70%;
+            margin: 0 auto;
+            display: block;
+        }
+        .thumb, .desc {width:50%; float:left;}
+        .forth img {
+            width: 100%;
+            margin-bottom:-5px;
+        }
+    </style>
+    <body>
+        <div class="container">
+            <div class="first">
+                <div class="left">
+                    <h1>HUDSON VALLEY PROJECT MANAGER</h1>
+                    <div class="info">
+                        <p>Michael DiSimone</p>
+                        <a href="#"><img src="img/phone.svg" /><p>845-551-2830</p></a>
+                        <a href="#"><img src="img/address.svg" /><p>4 Maplewood Terrace, <br>Goshen, NY 10924</p></a>
+                    </div>
+                </div>
+                <div class="right">
+                    <img src="img/bg.png" />
+                </div>
+            </div>
+            <div class="second">
+                <h2>ABOUT</h2>
+                <p>Lorem ipsum dolor sit amet consectetur. Nibh enim nunc arcu suspendisse mauris et in vulputate sit. Purus vel penatibus commodo condimentum malesuada porta. Eget non in eros sed dui at aliquam sed velit. Aliquam sagittis auctor quam enim nullam neque neque dictum. Diam pellentesque amet vitae enim neque amet risus sapien eros. Est nunc purus et aliquet id. In magna sit ut non ullamcorper odio ipsum molestie enim. Phasellus pellentesque lectus nibh sagittis malesuada pretium donec ac. Ac leo mi eleifend arcu etiam massa.<br>
+                Cras aliquam mattis ut enim risus fermentum nunc. Facilisis accumsan risus in nunc aenean nunc velit amet eget. Felis nulla libero ut quis pellentesque. Massa tempus adipiscing arcu fusce lacus libero tempor. In mattis duis ipsum vivamus hendrerit. Vel quam quis tortor augue pharetra. Nibh ante in etiam et. Amet eget sapien urna suspendisse quis magna gravida. Pellentesque faucibus placerat at purus magnis amet maecenas eu.</p>
+            </div>
+            <div class="third">
+                <div class="project">
+                    <div class="thumb">
+                        <img src="img/bg.png" />
+                    </div>
+                    <div class="desc">
+                        <h2>PROJECT NAME</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur. Nibh enim nunc arcu suspendisse mauris et in vulputate sit. Purus vel penatibus commodo condimentum malesuada porta. Eget non in eros sed dui at aliquam sed velit. Aliquam sagittis auctor quam enim nullam neque neque dictum. Diam pellentesque amet vitae enim neque amet risus sapien eros. Est nunc purus et aliquet id. In magna sit ut non ullamcorper odio ipsum molestie enim. Phasellus pellentesque lectus nibh sagittis malesuada pretium donec ac. Ac leo mi eleifend arcu etiam massa.</p>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="thumb">
+                        <img src="img/bg.png" />
+                    </div>
+                    <div class="desc">
+                        <h2>PROJECT NAME</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur. Nibh enim nunc arcu suspendisse mauris et in vulputate sit. Purus vel penatibus commodo condimentum malesuada porta. Eget non in eros sed dui at aliquam sed velit. Aliquam sagittis auctor quam enim nullam neque neque dictum. Diam pellentesque amet vitae enim neque amet risus sapien eros. Est nunc purus et aliquet id. In magna sit ut non ullamcorper odio ipsum molestie enim. Phasellus pellentesque lectus nibh sagittis malesuada pretium donec ac. Ac leo mi eleifend arcu etiam massa.</p>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="thumb">
+                        <img src="img/bg.png" />
+                    </div>
+                    <div class="desc">
+                        <h2>PROJECT NAME</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur. Nibh enim nunc arcu suspendisse mauris et in vulputate sit. Purus vel penatibus commodo condimentum malesuada porta. Eget non in eros sed dui at aliquam sed velit. Aliquam sagittis auctor quam enim nullam neque neque dictum. Diam pellentesque amet vitae enim neque amet risus sapien eros. Est nunc purus et aliquet id. In magna sit ut non ullamcorper odio ipsum molestie enim. Phasellus pellentesque lectus nibh sagittis malesuada pretium donec ac. Ac leo mi eleifend arcu etiam massa.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="forth">
+                <img src="img/second.svg" />
+            </div>
+        </div>
+    </body>
+</html>
